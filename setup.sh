@@ -31,12 +31,13 @@ sudo apt install playonlinux -y
 sudo apt install ubuntu-restricted-extras -y
 sudo apt install build-essential -y
 sudo apt install git -y
-
-# Mendeley
-#wget https://www.mendeley.com/repositories/ubuntu/stable/amd64/mendeleydesktop-latest
-#sudo dpkg -i ./mendeleydesktop-latest -y
-#sudo apt install -f -y
-#rm ./mendeleydesktop-latest*
+git config --global credential.helper store
+echo -n "Enter your email: "
+read my_email
+echo -n "Enter your name: "
+read my_name
+git config --global user.email $my_email
+git config --global user.name $my_name
 
 # Power managment
 sudo apt install tlp -y
@@ -52,3 +53,4 @@ sudo apt install -f -y
 # youtube-DL
 sudo apt-get install python-pip
 sudo pip install youtube-dl
+
