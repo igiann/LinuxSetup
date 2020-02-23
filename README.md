@@ -1,6 +1,5 @@
 Linux Setup Scripts
-
-====
+======
 
 Here are the scripts that I use for my linux setups. You can find all sctripts for installing the following programs.
 # Graphics
