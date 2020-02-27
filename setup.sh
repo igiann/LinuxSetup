@@ -6,12 +6,12 @@ sudo apt install gimp ink inkscape -y
 #### Utillities
 # Virtual Machinev
 sudo apt install virtualbox -y 
-#
+# USB startup
 sudo apt install usb-creator-gtk
-#
-#### Multimedia
-sudo apt install vlc -y
 
+#### Multimedia
+# VLC
+sudo apt install vlc -y
 # webCam recorder
 sudo apt install cheese -y
 
@@ -19,7 +19,9 @@ sudo apt install cheese -y
 #### Browsers
 # Remove firefox
 sudo apt remove firefox -y
+# Install Chromium
 sudo apt install chromium-browser -y
+# Instal Brave
 sudo apt install apt-transport-https curl -y
 curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
 echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
@@ -40,10 +42,21 @@ sudo apt install kile calibre libreoffice -y
 sudo apt install winbind -y
 sudo dpkg --add-architecture i386
 sudo apt update
-wget -q "http://deb.playonlinux.com/public.gpg" -O- | sudo apt-key add -
+wget -q "http://deb.playonlinux.com/puwblic.gpg" -O- | sudo apt-key add -
 sudo wget http://deb.playonlinux.com/playonlinux_precise.list -O /etc/apt/sources.list.d/playonlinux.list
 sudo apt update
 sudo apt install playonlinux -y
+
+#### Pandoc
+./pandoc_vesrion > temp
+wget -i temp
+rm temp
+sudo dpkg -i pandoc*
+rm pandoc*
+sudo apt install -f
+#sudo apt install pandoc -y
+
+# pandoc -s main.tex -o example5.text
 
 #### Codecs and Codes
 sudo apt install ubuntu-restricted-extras -y
