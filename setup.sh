@@ -64,11 +64,12 @@ sudo apt install tlp -y
 sudo apt install font-manager
 sudo apt-get install ttf-mscorefonts-installer
 sudo apt-get install cabextract
-mkdir /home/igiann/.fonts
-wget -qO- http://plasmasturm.org/code/vistafonts-installer/vistafonts-installer | bash
+mkdir ~/.fonts
+#wget -qO- http://plasmasturm.org/code/vistafonts-installer/vistafonts-installer | bash
+cp -r ./Fonts/ ~/.fonts
 sudo fc-cache -f -v
-sudo apt install -f -y
-wget https://fontlibrary.org/assets/downloads/gfs-didot/51c2400ab1b1fa20cc305edc7a4543f7/gfs-didot.zip
+#sudo apt install -f -y
+#wget https://fontlibrary.org/assets/downloads/gfs-didot/51c2400ab1b1fa20cc305edc7a4543f7/gfs-didot.zip
 
 #### youtube-DL
 sudo apt-get install python-pip
