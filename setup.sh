@@ -3,18 +3,28 @@
 #### Graphics
 sudo apt install gimp ink inkscape -y
 
+#### Utillities
+# Virtual Machinev
+sudo apt install virtualbox -y 
+#
+sudo apt install usb-creator-gtk
+#
 #### Multimedia
 sudo apt install vlc -y
 
+# webCam recorder
+sudo apt install cheese -y
+
+
 #### Browsers
 # Remove firefox
-sudo apt remove firefox
+sudo apt remove firefox -y
 sudo apt install chromium-browser -y
-sudo apt install apt-transport-https curl
+sudo apt install apt-transport-https curl -y
 curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
 echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 sudo apt update
-sudo apt install brave-browser
+sudo apt install brave-browser -y
 
 #### LaTeX
 sudo apt install texlive-latex-extra -y
@@ -23,6 +33,7 @@ sudo apt install texlive-science -y
 sudo apt install texlive-fonts-recommended -y
 sudo apt install texlive-lang-greek -y
 sudo apt install texlive-lang-european -y
+sudo apt install texlive-xetex -y 
 
 #### Office
 sudo apt install kile calibre libreoffice -y
@@ -50,12 +61,14 @@ git config --global user.name $my_name
 sudo apt install tlp -y
 
 #### Fonts
+sudo apt install font-manager
 sudo apt-get install ttf-mscorefonts-installer
 sudo apt-get install cabextract
 mkdir /home/igiann/.fonts
 wget -qO- http://plasmasturm.org/code/vistafonts-installer/vistafonts-installer | bash
 sudo fc-cache -f -v
 sudo apt install -f -y
+wget https://fontlibrary.org/assets/downloads/gfs-didot/51c2400ab1b1fa20cc305edc7a4543f7/gfs-didot.zip
 
 #### youtube-DL
 sudo apt-get install python-pip
