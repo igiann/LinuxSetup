@@ -14,7 +14,9 @@ sudo apt install usb-creator-gtk
 sudo apt install vlc -y
 # webCam recorder
 sudo apt install cheese -y
-
+# youtube-DL
+sudo apt-get install python-pip
+sudo pip install youtube-dl
 
 #### Browsers
 # Remove firefox
@@ -83,8 +85,4 @@ cp -r ./Fonts/ ~/.fonts
 sudo fc-cache -f -v
 #sudo apt install -f -y
 #wget https://fontlibrary.org/assets/downloads/gfs-didot/51c2400ab1b1fa20cc305edc7a4543f7/gfs-didot.zip
-
-#### youtube-DL
-sudo apt-get install python-pip
-sudo pip install youtube-dl
 
