@@ -7,7 +7,7 @@ sudo apt install gimp ink inkscape -y
 # Virtual Machinev
 sudo apt install virtualbox -y 
 # USB startup
-sudo apt install usb-creator-gtk
+sudo apt install usb-creator-gtk -y
 
 #### Multimedia
 # VLC
@@ -15,20 +15,10 @@ sudo apt install vlc -y
 # webCam recorder
 sudo apt install cheese -y
 # youtube-DL
-sudo apt-get install python-pip
-sudo pip install youtube-dl
+sudo apt-get install python-pip -y
+sudo pip install youtube-dl -y
 
 #### Browsers
-# Remove firefox
-sudo apt remove firefox -y
-# Install Chromium
-sudo apt install chromium-browser -y
-# Instal Brave
-sudo apt install apt-transport-https curl -y
-curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
-echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-sudo apt update
-sudo apt install brave-browser -y
 
 #### LaTeX
 sudo apt install texlive-latex-extra -y
@@ -76,7 +66,6 @@ git config --global user.name $my_name
 sudo apt install tlp -y
 
 #### Fonts
-sudo apt install font-manager -y
 sudo apt-get install ttf-mscorefonts-installer -y
 sudo apt-get install cabextract -y
 mkdir ~/.fonts
