@@ -50,7 +50,7 @@ sudo apt update
 sudo apt install playonlinux -y
 
 #### Pandoc
-./pandoc_vesrion > temp
+./vesr_pandoc > temp
 wget -i temp
 rm temp
 sudo dpkg -i pandoc*
@@ -76,9 +76,9 @@ git config --global user.name $my_name
 sudo apt install tlp -y
 
 #### Fonts
-sudo apt install font-manager
-sudo apt-get install ttf-mscorefonts-installer
-sudo apt-get install cabextract
+sudo apt install font-manager -y
+sudo apt-get install ttf-mscorefonts-installer -y
+sudo apt-get install cabextract -y
 mkdir ~/.fonts
 #wget -qO- http://plasmasturm.org/code/vistafonts-installer/vistafonts-installer | bash
 cp -r ./Fonts/ ~/.fonts

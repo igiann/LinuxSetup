@@ -5,10 +5,11 @@ read username
 adduser $username sudo
 apt install xorg
 apt install xfce4
-apt-get install intel-microcode
+
 
 reboot
-
+sudo apt-cache policy firmware-linux-nonfree
+apt-get install intel-microcode
 sudo apt install xfce4-terminal xfce4-whiskermenu-plugins xfce4-goodies
 sudo apt install greybird-gtk-theme
 sudo apt install elementary-xfce-icon-theme 
