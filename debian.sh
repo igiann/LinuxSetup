@@ -5,12 +5,16 @@ read username
 adduser $username sudo
 apt install xorg
 apt install xfce4
+apt-get install intel-microcode
+
 reboot
 
 sudo apt install xfce4-terminal xfce4-whiskermenu-plugins xfce4-goodies
 sudo apt install greybird-gtk-theme
+sudo apt install elementary-xfce4-icon-theme 
 sudo apt remove xterm
 
+# https://linuxgeekar.blogspot.com/2015/05/install-xubuntu-theme-in-debian-xfce.html
 #Theme –  Greybird
 #Icon  –  elementary Xfce dark
 
