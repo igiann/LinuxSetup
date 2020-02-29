@@ -5,6 +5,14 @@ read username
 adduser $username sudo
 apt install xorg
 apt install xfce4
+reboot
+
+sudo apt install xfce4-terminal xfce4-whiskermenu-plugins xfce4-goodies
+sudo apt install greybird-gtk-theme
+sudo apt remove xterm
+
+#Theme –  Greybird
+#Icon  –  elementary Xfce dark
 
 # sudo nano /etc/apt/sources.list
 sudo apt update
