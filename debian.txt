@@ -13,6 +13,7 @@ apt-get install intel-microcode
 sudo apt install xfce4-terminal xfce4-whiskermenu-plugins xfce4-goodies
 sudo apt install greybird-gtk-theme
 sudo apt install elementary-xfce-icon-theme 
+sudo apt install ristretto transmission
 sudo apt remove xterm xsane parole quodlibet exfalso firefox-esr atril hv3 evince epiphany-browser
 
 # https://linuxgeekar.blogspot.com/2015/05/install-xubuntu-theme-in-debian-xfce.html
