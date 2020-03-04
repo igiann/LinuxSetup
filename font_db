@@ -1,0 +1,8 @@
+#### Fonts
+sudo apt install font-manager -y
+sudo apt install ttf-mscorefonts-installer -y
+sudo apt install cabextract -y
+cp -r ./fonts/ ~/
+mv ./fonts/ ~/.fonts
+rm -R ~/fonts
+sudo fc-cache -f -v

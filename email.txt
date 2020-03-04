@@ -1,0 +1,8 @@
+Mail watcher
+
+Run on click:
+thunderbird
+
+Run on new message:
+notify-send "New mail" "You have new messages in your inbox" -i xfce-newmail
+

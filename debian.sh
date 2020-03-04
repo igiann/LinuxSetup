@@ -24,6 +24,10 @@ sudo apt update
 sudo apt upgrade
 sudo reboot
 
+#HP
+apt install task-print-server
+sudo apt install hplip hplip-gui
+hp-setup -b usb
 
 #sudo nano /usr/share/lightdm/lightdm.conf.d/01_my.conf
 #[SeatDefaults]
