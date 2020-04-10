@@ -24,10 +24,12 @@ Here are the scripts that I use for my linux setups. You can find all sctripts f
   - Fonts
 
 # Codecs and Codes
-- git
-- All the nececery compiler
+ - git
+ - All the nececery compiler
 
 # Mendeley
 
-# Power managment
+# Multimedia
+ - OBS
+ - Kazam 
 
