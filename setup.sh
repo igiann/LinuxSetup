@@ -28,6 +28,7 @@ sudo apt install texlive-fonts-recommended -y
 sudo apt install texlive-lang-greek -y
 sudo apt install texlive-lang-european -y
 sudo apt install texlive-xetex -y 
+sudo get install texlive-font-utils -y
 
 #### Office
 sudo apt install kile calibre libreoffice -y
