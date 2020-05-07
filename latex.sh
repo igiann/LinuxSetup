@@ -6,7 +6,7 @@ sudo apt install texlive-fonts-recommended -y
 sudo apt install texlive-lang-greek -y
 sudo apt install texlive-lang-european -y
 sudo apt install texlive-xetex -y 
-
+sudo get install texlive-font-utils -y
 
 #####  Install mcode
 sudo mkdir /usr/share/texmf/tex/latex/mcode/

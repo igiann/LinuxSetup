@@ -1,0 +1,3 @@
+For a more permanent solution edit /etc/sysctl.d/10-ptrace.conf as root and set this option :
+
+kernel.yama.ptrace_scope = 0
