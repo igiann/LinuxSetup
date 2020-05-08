@@ -15,5 +15,5 @@ sudo apt update
 
 sudo apt-get update
 sudo apt install --install-recommends winehq-stable
-
+sudo apt install winetricks
 wine --version
