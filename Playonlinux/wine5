@@ -1,0 +1,19 @@
+sudo apt-get update
+sudo apt-get -y install software-properties-common wget
+
+wget -qO - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
+
+sudo add-apt-repository ppa:cybermax-dexter/sdl2-backport
+
+sudo apt-get update
+
+wget -O- -q https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04/Release.key | sudo apt-key add - 
+   
+echo "deb http://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04 ./" | sudo tee /etc/apt/sources.list.d/wine-obs.list
+sudo apt update
+
+sudo apt-get update
+sudo apt install --install-recommends winehq-stable
+
+wine --version
