@@ -4,6 +4,8 @@
 sudo apt install gimp ink inkscape -y
 
 #### Utillities
+sudo apt-get install network-manager-openvpn-gnome
+
 # Virtual Machinev
 sudo apt install virtualbox -y 
 # USB startup
@@ -13,22 +15,10 @@ sudo apt install usb-creator-gtk -y
 # VLC
 sudo apt install vlc -y
 # webCam recorder
-sudo apt install cheese -y
+# sudo apt install cheese -y
 # youtube-DL
 sudo apt-get install python-pip -y
 sudo pip install youtube-dl -y
-
-#### Browsers
-
-#### LaTeX
-sudo apt install texlive-latex-extra -y
-sudo apt install texlive-pictures -y
-sudo apt install texlive-science -y
-sudo apt install texlive-fonts-recommended -y
-sudo apt install texlive-lang-greek -y
-sudo apt install texlive-lang-european -y
-sudo apt install texlive-xetex -y 
-sudo get install texlive-font-utils -y
 
 #### Office
 sudo apt install kile calibre libreoffice -y
@@ -49,6 +39,6 @@ git config --global user.email $my_email
 git config --global user.name $my_name
 
 #### Power managment
-sudo apt install tlp -y
+# sudo apt install tlp -y
 
 
