@@ -4,7 +4,7 @@
 sudo apt install gimp ink inkscape -y
 
 #### Utillities
-sudo apt-get install network-manager-openvpn-gnome
+sudo apt-get install network-manager-openvpn-gnome -y
 
 # Virtual Machinev
 sudo apt install virtualbox -y 
@@ -17,7 +17,7 @@ sudo apt install vlc -y
 # webCam recorder
 # sudo apt install cheese -y
 # youtube-DL
-sudo apt-get install python-pip -y
+sudo apt-get install python3-pip -y
 sudo pip install youtube-dl -y
 
 #### Office
