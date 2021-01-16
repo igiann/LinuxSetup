@@ -23,7 +23,9 @@ sudo pip install youtube-dl -y
 #### Office
 sudo apt install kile calibre libreoffice -y
 
-
+#### Security
+sudo apt install ufw -y
+sudo ufw enable
 # pandoc -s main.tex -o example5.text
 
 #### Codecs and Codes
