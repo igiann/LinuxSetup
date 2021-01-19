@@ -6,7 +6,7 @@ sudo apt install gimp ink inkscape -y
 #### Utillities
 sudo apt-get install network-manager-openvpn-gnome -y
 
-# Virtual Machinev
+# Virtual Machine
 sudo apt install virtualbox -y 
 # USB startup
 sudo apt install usb-creator-gtk -y
