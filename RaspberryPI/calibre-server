@@ -1,0 +1,32 @@
+sudo apt update
+sudo apt upgrade
+
+sudo apt install python python3
+sudo apt install xvfb
+sudo apt update
+
+sudo apt install calibre
+
+sudo adduser calibre
+sudo usermod -aG sudo calibre
+
+sudo xvfb-run calibredb add ~/calibre-upload/* --library-path ~/calibre-library
+
+sudo calibre-server --port=8081 --enable-local-write /mn
+
+sudo nano /etc/systemd/system/cps.service
+
+# Install calibre-web
+
+$ cd ~
+$ wget https://github.com/janeczku/calibre-web/archive/master.zip
+$ unzip master.zip
+$ sudo mv calibre-web-master calibre-web
+$ cd calibre-web
+
+ sudo pip3 install --target vendor -r requirements.txt
+ 
+ python3 cps.py
+
+
+sudo systemctl enable cps.service
