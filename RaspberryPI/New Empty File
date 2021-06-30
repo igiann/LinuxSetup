@@ -1,0 +1,11 @@
+[Unit]
+Description=Calibre-Web
+
+[Service]
+Type=simple
+User=igiann
+ExecStart=/usr/bin/python3 /home/igiann/calibre-web/cps.py
+WorkingDirectory=/home/igiann/calibre-web
+
+[Install]
+WantedBy=multi-user.target

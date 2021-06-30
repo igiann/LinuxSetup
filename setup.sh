@@ -4,10 +4,11 @@
 sudo apt install gimp ink inkscape -y
 
 #### Utillities
-sudo apt-get install network-manager-openvpn-gnome -y
+#sudo apt-get install network-manager-openvpn-gnome -y
 
-# Virtual Machinev
+# Virtual Machine
 sudo apt install virtualbox -y 
+
 # USB startup
 sudo apt install usb-creator-gtk -y
 
@@ -18,12 +19,14 @@ sudo apt install vlc -y
 # sudo apt install cheese -y
 # youtube-DL
 sudo apt-get install python3-pip -y
-sudo pip install youtube-dl -y
+sudo pip3 install youtube-dl -y
 
 #### Office
 sudo apt install kile calibre libreoffice -y
 
-
+#### Security
+sudo apt install ufw -y
+sudo ufw enable
 # pandoc -s main.tex -o example5.text
 
 #### Codecs and Codes
