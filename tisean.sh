@@ -7,10 +7,10 @@ sudo unzip ./TISEAN_3.0.1.zip
 sudo rm TISEAN_3.0.1.zip
 sudo chown igiann:igiann /usr/local/Tisean_3.0.1/ -R
 cd /usr/local/Tisean_3.0.1/
-./configure --prefix=/usr/local/Tisean_3.0.1/
+./configure --prefix=/usr/local/Tisean_3.0.1/bin
 make
 make install
-echo 'export PATH=$PATH:/usr/local/Tisean_3.0.1/bin/'>>/home/igiann/.bashrc 
+export PATH=$PATH:/usr/local/Tisean_3.0.1/bin/
 
 
 
