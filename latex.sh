@@ -10,6 +10,7 @@ sudo get install texlive-font-utils -y
 sudo get install texlive-publishers -y
 sudo get install texlive-fonts-extra -y
 sudo apt-get install texlive-publishers
+sudo apt-get install texlive-font-utils
 
 #####  Install mcode
 sudo mkdir /usr/share/texmf/tex/latex/mcode/
