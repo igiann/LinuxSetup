@@ -1,0 +1,9 @@
+name sq
+charset iso8859-1
+special ' -**
+soundslike	generic
+affix	sq
+affix-compress	true
+repl-table	sq_affix.dat
+
+

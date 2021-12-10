@@ -1,0 +1,36 @@
+Fjalor i gjuhës shqipe për programin aspell
+
+(me rreth 550.000 trajta fjalësh)
+
+Versioni 1.6.4-0
+
+21 shkurt 2011
+
+Luan Kelmendi
+
+ 
+
+Fjalor Drejtshkrimor për programin aspell, versioni >= 0.60 ,
+
+ 
+
+Udhëzime për instalim:
+
+1. Shpaketojeni datekën aspell-sq-1.6.4-0.tar.tgz:
+   tar -xvjf aspell6-sq-1.6.4-0.tar.bz2
+
+3. Kaloni te direktoriumi aspell-sq-1.6.4-0:
+   cd aspell6-sq-1.6.4-0
+
+4. Instalimi i Fjalorit bëhet me urdhrat:
+   ./configure
+   make
+   make install
+
+4. Përdorimi i këtij Fjalori:
+   aspell --lang=sq -c teksti_im.txt
+
+
+
+Copyright (C) 2002, 2011 Luan Kelmendi
+
