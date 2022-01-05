@@ -1,5 +1,8 @@
 #!/bin/bash
 
+for file in *' '*; do   mv -- "$file" "${file// /_}"; done
+
+
 #Season
 ext='mp4'
 seas='S02'
