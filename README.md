@@ -16,7 +16,7 @@ Here are the scripts that I use for my linux setups. You can find all sctripts f
 # LaTeX
   - Latex
 
-#. Office
+# Office
   - kile 
   - calibre 
   - libreoffice 
