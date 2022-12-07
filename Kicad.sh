@@ -1,5 +1,3 @@
-sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases
-sudo apt update -y
+sudo add-apt-repository --yes ppa:kicad/kicad-6.0-releases
+sudo apt update
 sudo apt install --install-recommends kicad
-# If you want demo projects
-sudo apt install kicad-demos
